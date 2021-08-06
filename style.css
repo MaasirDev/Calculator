@@ -1,0 +1,100 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Otomanopee One', sans-serif;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    height:568px ;
+    width: 320px;
+    background-color: #dde1e7;
+    box-shadow: 6px 20px 30px #dde1e780,-5px -5px 15px #dde1e770;
+    border-radius: 25px;
+    padding: 2rem 1.3rem;
+    display: flex;
+    flex-direction: column;   
+}
+.header{
+    height: 1.5rem;
+    /* background-color: red; */
+    /* font-family: 'Otomanopee One',sans-serif; */
+    margin-top: -1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+span{
+    /* vertical-align: middle; */
+    font-weight: bolder;
+}
+#top_container{
+    /* background-color: black; */
+    flex: 1;
+    margin-bottom: 1rem;
+    /* color: white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+#buttom_container{
+    padding: 5px 10px;
+    display: flex;
+}
+#grid-parent{
+    flex: 1;
+}
+.grid_container{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    row-gap: 12px;
+}
+.grid-item{
+    box-sizing:border-box;
+    /* color: blanchedalmond; */
+    text-align: center;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    font-weight: bolder;
+    user-select: none;
+    height: 50px;
+    width: 50px;
+    background-color: #dde1e7;
+    color:black;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: -2px -2px 6px #ffffff, 2px 2px 4px #000000;
+}
+.allCenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#upper{
+    display: flex;
+    justify-content: flex-end;
+    width: 246.4px;
+}
+#upper_top_container{
+    font-size: 3rem;
+    text-align: right;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#lower_top_container{
+    font-size: 2rem;
+    text-align: right;
+}
